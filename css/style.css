@@ -72,7 +72,8 @@ color: aliceblue;
 
 #logo
 {
-   margin-left: 3em;
+    margin-left: 3em;
+    margin-bottom: 5px;
     max-width: 100px;
     max-height: 100px;
 }
@@ -98,6 +99,7 @@ color: aliceblue;
 .bt-central a
 {
     color: aliceblue;
+    font-weight: 600;
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -108,4 +110,101 @@ main
 {
     margin: 1px;
     padding-bottom: 500px;
+}
+
+/*seção diferencial*/
+
+.title
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub-title
+{
+    margin-top: 3em;
+    
+    
+}
+
+.sub-title .fa-wifi
+{
+    padding-left: 60px;
+    color: #2f8ee2;
+}
+
+.sub-title p
+{
+    font-weight: 800;
+    padding-left: 4px;
+    color: #343940;
+}
+
+.sub-title h2
+{
+    color: #106FAB;
+    font-weight: 700;
+}
+
+/*seção carts*/
+.carts-empresa
+{
+    margin-top: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.164);
+    height: 220px;
+    width: 260px;
+    border-radius: 3%;
+    transition: .5s;
+}
+
+.carts-empresa:hover
+{
+    background-color: #2f8ee2;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cart p:hover
+{
+color: aliceblue;
+}
+
+.cart
+{
+    margin-left: 4px;
+    transition: .5s;
+}
+
+.fa-network-wired, .fa-headset, .fa-location-dot, .fa-gauge
+{
+    color: #2f8ee2;
+    padding-top: 13px;
+    margin-left: 10px;
+}
+
+.cart .title-cart
+{
+    color: #343940;
+    font-weight: 700;
+    padding-top: 4px;
+    font-size: 1.5em;
+}
+
+.cart p
+{
+    color: #343940;
+    padding-left: 3px;
+    font-weight: 500;
+}
+
+.diferenciais
+{
+    margin-left: 8em;
+    margin-right: 8em;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 250px;
 }
