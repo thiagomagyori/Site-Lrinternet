@@ -208,3 +208,51 @@ color: aliceblue;
     justify-content: space-between;
     height: 250px;
 }
+/*section planos*/
+.img-background
+{
+    width: 100%;
+    margin-top: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-plano
+{
+    height: 10em;
+    
+}
+
+.title-plano i
+{
+ padding-left: 5em;
+ padding-top: 1em;
+}
+
+
+.planos p
+{
+    color: aliceblue;
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 2em;
+}
+
+.planos i
+{
+    color: aliceblue;
+   
+    
+}
