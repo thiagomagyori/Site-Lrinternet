@@ -68,14 +68,20 @@ color: aliceblue;
 {
     display: flex;
     justify-content: space-between;
+    height: 9em;
+}
+
+.bt-menu
+{
+    display: block;
 }
 
 #logo
 {
     margin-left: 3em;
-    margin-bottom: 5px;
-    max-width: 100px;
-    max-height: 100px;
+    margin-top: 0.8em;
+    max-width: 110px;
+    max-height: 110px;
 }
 
 .bt-central
@@ -91,6 +97,31 @@ color: aliceblue;
     transition: .5s; /*controla o tempo da animação*/
 }
 
+.bt-speed
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 30px;
+    background-color: #106FAB;
+    border-radius: 23px;
+    margin-left: 2.6em;
+    transition: .5s; /*controla o tempo da animação*/
+}
+
+.bt-speed a
+{
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.bt-speed:hover
+{
+    background-color: #0c5888;
+}
 .bt-central:hover
 {
     background-color: #0c5888;
@@ -123,10 +154,12 @@ main
 .sub-title
 {
     margin-top: 3em;
-    
-    
 }
 
+.sub-title p
+{
+    color: #34394031;
+}
 .sub-title .fa-wifi
 {
     padding-left: 60px;
@@ -154,6 +187,7 @@ main
     height: 220px;
     width: 260px;
     border-radius: 3%;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.178);
     transition: .5s;
 }
 
@@ -216,7 +250,7 @@ color: aliceblue;
 
 .aria-2 p
 {
-    color: #343940;
+    color: #343940c4;
     font-size: 2em;
     font-weight: 600;
 }
@@ -234,7 +268,72 @@ color: aliceblue;
     width: 100%;
 }
 
+.planos-efertado /*aria total*/
+{
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-between;
+}
 
+.cart-planos-ofertados
+{
+    width: 19em;
+    height: 25em;
+    border: solid 1px #34394031;
+    border-radius: 13px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.178);
+    margin: 1em;
+}
+
+.icone-plano
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+    border: solid 5px #2f8ee2;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.cart-planos-ofertados .text-plano
+{
+    font-size: 1em;
+}
+
+.icone-plano i
+{
+    color: #E61849;
+    margin-top: 2em;
+}
+
+.btn-planos 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 50px;
+    background-color: #106FAB;
+    border-radius: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9em;
+    transition: .5s; /*controla o tempo da animação*/
+}
+
+.btn-planos a
+{
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.btn-planos:hover
+{
+    background-color: #0c5888;
+}
 
 
 
