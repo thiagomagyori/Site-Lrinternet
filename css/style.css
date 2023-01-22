@@ -40,10 +40,11 @@ body
     margin-top: 5px;
 }
 
-.whp p
+.whp p, a
 {
     color: aliceblue;
     margin-top: 7px;
+    text-decoration: none;
 }
 
 
@@ -116,6 +117,7 @@ color: aliceblue;
     font-weight: 600;
     text-decoration: none;
     font-size: 0.8em;
+    margin-bottom: 7px;
 }
 
 .bt-speed:hover
@@ -133,6 +135,7 @@ color: aliceblue;
     font-weight: 600;
     text-decoration: none;
     font-size: 1.1em;
+    margin-bottom: 8px;
 }
 
 /*Main*/
@@ -233,8 +236,9 @@ color: aliceblue;
 
 .aria-1
 {
-    margin-left: 8em;
-    margin-right: 8em;
+    max-width: 74em;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
@@ -369,14 +373,15 @@ color: aliceblue;
 
 .galeria
 {
-    width: 100%;
-    height: 270px;
-    margin-top: 8em;
+    max-width: 82em;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .galeria-img
 {
-    margin: 1em;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -399,7 +404,9 @@ color: aliceblue;
 /*Footer*/
 .conteudo-footer
 {
-    margin-top: 8em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
     width: 100%;
     height: 300px;
     background-color: #002B50;
@@ -407,11 +414,10 @@ color: aliceblue;
 #logo-footer
 {
     margin: 1em;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 .menu-list
 {
-    display: flex;
     max-width: 200px;
     margin-left: 1em;
     color: aliceblue;
@@ -427,7 +433,7 @@ color: aliceblue;
 .creditos
 {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color:#343940;
 }
 
@@ -437,9 +443,34 @@ color: aliceblue;
    
 }
 
+.social-footer
+{
+    margin-right: 3em;
+    margin-top: 1em;
+}
 
+.social-footer .fa-facebook
+{
+    padding-right: 1em;
+    color: aliceblue;
+}
 
+.social-footer .fa-instagram
+{
+    color: aliceblue;
+}
 
+.social-footer p
+{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.creditos
+{
+    text-align: center;
+}
 
 
 
@@ -468,8 +499,43 @@ color: aliceblue;
    margin-bottom: 200px;
 }
 
+.planos-efertado
+{
+    display: block;
+}
 
+.cart-planos-ofertados
+{
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.sobre-empresa
+{
+    display: block;
+}
+
+.img-sobre
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.galeria
+{
+   max-width: 18.5em;
+}
+.galeria-img
+{
+    display: block;
+    margin-bottom: 1em;
+    
+}
+
+.img-border
+{
+    margin-bottom: 1em;
+
+}
 
 }
 
